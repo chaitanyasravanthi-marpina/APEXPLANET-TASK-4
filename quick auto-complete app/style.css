@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #01080f;
+
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: 80px auto;
+    padding: 20px;
+    background: black;
+
+
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 25px;
+    font-size: 34px;
+}
+
+h1 i {
+    color: whitesmoke;
+    margin-right: 10px;
+}
+
+/* Input Field */
+.form-group {
+
+    display: flex;
+    justify-content: center;
+}
+
+.form-group input {
+    width: 75%;
+    padding: 12px;
+    font-size: 16px;
+    font-family: italic;
+
+    border-radius: 6px;
+
+}
+
+
+
+/* Match List */
+#match-list {
+    margin-top: 15px;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    text-align: left;
+    border-left: 4px solid #2d2d2d;
+    /* transition: background 0.3s; */
+}
+
+.card:hover {
+    background-color: #2a2a2a;
+}
+
+.card h4 {
+    margin: 0 0 8px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.card small {
+    color: #aaaaaa;
+}
+
+.text-primary {
+    color: #1e90ff;
+    font-weight: bold;
+}
